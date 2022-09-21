@@ -1,0 +1,65 @@
+@import '../../style/button.scss';
+
+.findChar {
+	margin-top: 20px;
+	position: relative;
+	width: 425px;
+	max-height: 100%;
+	background-color: #fff;
+	box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.263);
+	form {
+		width: 100%;
+		height: 100%;
+		padding: 20px 20px;
+	}
+	label {
+		font-weight: bolder;
+		font-size: 17px;
+	}
+	input {
+		font-weight: 600;
+		padding: 10px;
+		width: 100%;
+		height: 36px;
+		border: none;
+		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.263);
+	}
+	&__inner {
+		padding-top: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 20px;
+	}
+	&__result {
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h4 {
+			font-size: 18px;
+		}
+	}
+}
+.error {
+	color: #e53e3e;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.btn {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	flex: 0 0 30%;
+	width: 80%;
+	height: 80%;
+	background-color: #9f0013;
+	padding: 15px;
+	&:hover {
+		color: rgb(255, 140, 140);
+	}
+}
+.not_found {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
